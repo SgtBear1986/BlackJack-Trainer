@@ -1,7 +1,9 @@
+import React from "react";
 import { useState } from "react";
 
 export default function App() {
   const [started, setStarted] = useState(false);
+
   return (
     <div style={{ textAlign: "center", marginTop: "20vh" }}>
       <h1>🃏 Blackjack Trainer</h1>
