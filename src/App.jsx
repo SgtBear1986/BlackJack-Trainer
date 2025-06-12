@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-// ... [Content truncated for brevity in display] ...
+// (The entire BlackjackFlashcards() code block from canvas goes here...)
 
 export default function BlackjackFlashcards() {
-  // [Function content from canvas]
+  // Will be filled in below
 }
