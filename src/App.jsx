@@ -1,16 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "./index.css";
 
 export default function App() {
   const [started, setStarted] = useState(false);
-
   return (
     <div style={{ textAlign: "center", marginTop: "20vh" }}>
       <h1>🃏 Blackjack Trainer</h1>
       {!started ? (
-        <button
-          onClick={() => setStarted(true)}
-          style={{ fontSize: "1.5rem", padding: "1rem 2rem" }}
-        >
+        <button onClick={() => setStarted(true)} style={{ fontSize: "1.5rem", padding: "1rem 2rem" }}>
           Start
         </button>
       ) : (
